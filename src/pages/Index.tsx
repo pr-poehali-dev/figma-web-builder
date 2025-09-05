@@ -97,6 +97,7 @@ const Index = () => {
               <Button 
                 size="lg" 
                 className="bg-gradient-to-r from-purple-500 to-green-400 hover:from-purple-600 hover:to-green-500 text-white text-lg px-8 py-4 rounded-xl border-0"
+                onClick={() => window.location.href = '/create'}
               >
                 <Icon name="Rocket" size={20} className="mr-2" />
                 Начать создавать
